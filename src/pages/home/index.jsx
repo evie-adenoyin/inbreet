@@ -4,6 +4,7 @@ import Services from "../../components/Services";
 import Customer from "../../components/Customer";
 import Testimonal from "../../components/Testimonal";
 import Connect from "../../components/Connect";
+import Blog from "../../components/Blog";
 
 const HomePage = () => {
   return (
@@ -13,6 +14,7 @@ const HomePage = () => {
       <Customer />
       <Testimonal />
       <Connect />
+      <Blog />
     </main>
   );
 };
