@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./style.module.css";
 import { Data } from "./Data";
+import Button from "../Button";
 
 const Blog = () => {
   return (
@@ -33,7 +34,7 @@ const Blog = () => {
               </div>
             ))}
           </article>
-          <button className={styles.button}>Load More</button>
+          <Button text={"Load More"} className={styles.loadMoreButton} />
         </div>
       </section>
     </>

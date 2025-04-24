@@ -117,17 +117,9 @@
   color: #777777;
 }
 
-.button {
+.loadMoreButton {
   width: 219px;
   height: 60px;
-  border: 2px solid #0a2640;
-  border-radius: 56px;
-  background-color: #ffffff;
   margin: 0 auto 124px auto;
-  cursor: pointer;
-  font-family: "Open Sans";
-  font-weight: 700;
   font-size: 20px;
-  line-height: 28px;
-  color: #0a2640;
 }
