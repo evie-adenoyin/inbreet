@@ -2,6 +2,7 @@ import React from "react";
 import Hero from "../../components/Hero";
 import Services from "../../components/Services";
 import Customer from "../../components/Customer";
+import Testimonal from "../../components/Testimonal";
 
 const HomePage = () => {
   return (
@@ -9,7 +10,7 @@ const HomePage = () => {
       <Hero />
       <Services />
       <Customer />
-      {/* <Connect /> */}
+      <Testimonal />
     </main>
   );
 };
