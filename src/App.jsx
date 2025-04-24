@@ -1,4 +1,5 @@
 import "./App.css";
+import "swiper/css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import HomePage from "./pages/home";
 

@@ -1,0 +1,28 @@
+.nav {
+  font-family: "Open Sans", sans-serif;
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: transparent;
+  position: relative;
+  z-index: 10;
+}
+.login {
+  font-family: "Open Sans", sans-serif;
+  height: 40px;
+  width: 128px;
+  border-radius: 24px;
+  padding: 4px 40px;
+  font-weight: 700;
+}
+.navLinks {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  a {
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+  }
+}

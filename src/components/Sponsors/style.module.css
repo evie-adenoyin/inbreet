@@ -1,0 +1,16 @@
+.sponsors {
+  width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.swiper {
+  width: 92%;
+  height: 100%;
+}
+
+.logo {
+  height: 42px;
+  width: 130px;
+  cursor: pointer;
+}
