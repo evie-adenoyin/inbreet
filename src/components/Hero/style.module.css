@@ -247,16 +247,9 @@ section {
 .contentContainerButton {
   width: 230px;
   height: 60px;
-  background: #0a2640;
-  border: 2px solid #0a2640;
-  border-radius: 56px;
-  font-family: "Open Sans", sans-serif;
-  font-weight: 700;
   font-size: 20px;
-  line-height: 28px;
-  color: #ffffff;
-  cursor: pointer;
 }
+
 .contentContainerButton:last-child {
   width: 187px;
 }

@@ -9,5 +9,9 @@ body {
 }
 
 button {
+  border-radius: 56px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  line-height: 28px;
   cursor: pointer;
 }

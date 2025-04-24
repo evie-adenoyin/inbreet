@@ -16,8 +16,6 @@ const Sponsors = ({ data }) => {
           disableOnInteraction: false,
         }}
         navigation
-        onSlideChange={() => console.log("slide change")}
-        onSwiper={(swiper) => console.log(swiper)}
         className={styles.swiper}
         modules={[Autoplay]}
       >
