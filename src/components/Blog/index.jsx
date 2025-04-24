@@ -1,29 +1,33 @@
-import React from 'react';
+import React from "react";
 import styles from "./style.module.css";
-import {Data} from "./Data";
+import { Data } from "./Data";
 
 const Blog = () => {
   return (
     <>
       <section className={styles.Blog}>
-        <div className={styles.BlogCon}>
+        <div className={styles.blogWrapper}>
           <div className={styles.BlogHeader}>
-            <span className={styles.BlogTextHeading}>Our Blog</span>
-            <span className={styles.BlogText}>
+            <span className={styles.blogTitle}>Our Blog</span>
+            <span className={styles.blogSubtitle}>
               Value proposition accelerator product management venture
             </span>
           </div>
-          <article className={styles.BlogContainer}>
+          <article className={styles.blogGrid}>
             {Data.map((item) => (
-              <div key={item.id} className={styles.container}>
-                <div className={styles.BlogImageCon}> <img src={item.image} alt="" /></div>
-                <div className={styles.caty}> Category <span>{item.date}</span></div> 
+              <div key={item.id} className={styles.blogCard}>
+                <img src={item.image} alt="" className={styles.imageWrapper} />
+
+                <div className={styles.category}>
+                  {" "}
+                  Category <span>{item.date}</span>
+                </div>
                 <div className={styles.desc}>
                   <span>{item.content}</span>
                 </div>
-                
+
                 <div className={styles.explore}>
-                   <img src={item.profile} alt="profileImage" /> 
+                  <img src={item.profile} alt="Author profile" />
                   <span>{item.name}</span>
                 </div>
               </div>
@@ -34,6 +38,6 @@ const Blog = () => {
       </section>
     </>
   );
-}
+};
 
 export default Blog;

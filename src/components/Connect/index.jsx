@@ -9,38 +9,33 @@ const Connect = () => {
     {
       id: 1,
       text: "We connect our customers with the best?",
-      image: <IoIosArrowDropdownCircle className={styles.icon} />,
+      icon: <IoIosArrowDropdownCircle size={32} color="#0a2640" />,
     },
     {
       id: 2,
       text: "Android research & development rockstar?",
-      image: <IoIosArrowDropdownCircle className={styles.icon} />,
+      icon: <IoIosArrowDropdownCircle size={32} color="#0a2640" />,
     },
   ];
   return (
-    <>
-      <section className={styles.connect}>
-        <div className={styles.ImageContainer}>
-          <img src={Image} alt="Connectimage" />
+    <section className={styles.connect}>
+      <img src={Image} alt="Connectimage" className={styles.imageWrapper} />
+
+      <div className={styles.contentWrapper}>
+        <p className={styles.sectionHeader}>
+          We connect our customers with the best, and help them keep up-and stay
+          open.
+        </p>
+        <div className={styles.dropDown}>
+          {DATA.map((item) => (
+            <div key={item.id} className={styles.dropList}>
+              <span>{item?.text}</span>
+              <span>{item?.icon}</span>
+            </div>
+          ))}
         </div>
-        <div className={styles.DescContainer}>
-          <div className={styles.Text}>
-            <span>
-              We connect our customers with the best, and help them keep up-and
-              stay open.
-            </span>
-          </div>
-          <div className={styles.dropDown}>
-            {DATA.map((item) => (
-              <div key={item.id} className={styles.dropList}>
-                <span>{item.text}</span>
-                <span className={styles.icon}>{item.image}</span>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-    </>
+      </div>
+    </section>
   );
 };
 

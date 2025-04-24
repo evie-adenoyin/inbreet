@@ -1,0 +1,206 @@
+.footer {
+  width: 100vw;
+  height: 949px;
+  background: #ffffff;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.cta {
+  height: 391px;
+  width: 1200px;
+  border-radius: 12px;
+  background: #0a2640;
+  position: relative;
+  overflow-x: hidden;
+  margin-top: -5px;
+}
+
+.ctaDivider {
+  position: absolute;
+  width: 1293px;
+  height: 1293px;
+  overflow-x: hidden;
+  left: 38.83%;
+  right: -46.58%;
+  top: -269.57%;
+  bottom: 38.87%;
+}
+
+.ctaCircle {
+  border-radius: 50%;
+  background: #1c3d5b;
+  width: 100%;
+  height: 100%;
+}
+
+.ctaContent {
+  position: absolute;
+  z-index: 99;
+  height: 247px;
+  width: 716px;
+  margin: 72px 242px;
+  justify-content: space-between;
+  flex-direction: column;
+  display: flex;
+}
+
+.ctaContent span {
+  font-family: "Manrope", sans-serif;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 72px;
+  color: #ffffff;
+  height: 139px;
+  width: 716px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.ctaForm {
+  display: flex;
+  gap: 20px;
+  height: 60px;
+  width: 604px;
+  margin: 0 56px;
+}
+
+.ctaForm form {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ctaForm input {
+  /* height: 56px; */
+  width: 300px;
+  border-radius: 240px;
+  font-size: 16px;
+  padding: 12px 32px;
+}
+
+.ctaForm ::placeholder {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  font-family: "Open Sans", sans-serif;
+  color: #000000;
+}
+
+.ctaForm button {
+  height: 60px;
+  width: 210px;
+  border-radius: 56px;
+  cursor: pointer;
+  background: #65e4a3;
+  border: 2px solid #65e4a3;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 28px;
+  color: #0a2640;
+  font-family: "Open Sans", sans-serif;
+}
+
+.footerMain {
+  height: 474px;
+  width: 100vw;
+  margin-top: 90px;
+  display: flex;
+  justify-content: center;
+}
+
+.footerNav {
+  height: 240px;
+  width: 642px;
+  margin-left: 179px;
+  display: flex;
+  gap: 96px;
+  position: relative;
+}
+
+.hiringButton {
+  position: absolute;
+  width: 72px;
+  height: 30px;
+  background: #65e4a3;
+  border-radius: 120px;
+  top: 58%;
+  left: 51%;
+  border: none;
+  cursor: pointer;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 28px;
+  color: #0a2640;
+}
+
+.footerContent {
+  width: 1200px;
+  display: flex;
+  height: 270px;
+  margin: 100px;
+}
+
+.footerBrand {
+  display: flex;
+  flex-direction: column;
+  height: 270px;
+}
+
+.footerBrand p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #777777;
+  height: 84px;
+  width: 300px;
+  margin-top: 40px;
+}
+.footerBrand img {
+  height: 41px;
+  width: 156px;
+}
+.footerBrand span {
+  height: 41px;
+  width: 156px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #777777;
+  font-family: "Open Sans", sans-serif;
+  margin-top: 64px;
+}
+
+.navGroup {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.footheader {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 32px;
+  color: #000000;
+}
+
+.navLinks {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #777777;
+  height: 172px;
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

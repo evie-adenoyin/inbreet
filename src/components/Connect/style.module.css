@@ -12,32 +12,25 @@
   padding: 0;
 }
 
-.ImageContainer {
+.imageWrapper {
   height: 403px;
   width: 1100px;
   border-radius: 24px;
   margin: 120px 150px 56px 150px;
 }
 
-.ImageContainer img {
-  height: 100%;
-  width: 100%;
-}
-
-.DescContainer {
+.contentWrapper {
   height: 164px;
   width: 1100px;
   margin-bottom: 100px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
-.Text {
+.sectionHeader {
   width: 500px;
   height: 164px;
-}
-
-.Text span {
   font-family: "Manrope", sans-serif;
   font-weight: 400;
   font-size: 36px;
@@ -69,10 +62,4 @@
   font-size: 20px;
   line-height: 32px;
   color: #000000;
-}
-
-.icon {
-  width: 28px;
-  height: 28px;
-  color: #0a2640;
 }

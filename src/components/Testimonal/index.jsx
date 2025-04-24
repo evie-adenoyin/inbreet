@@ -21,7 +21,7 @@ const Testimonal = () => {
             </button>
           </div>
 
-          <div className={`${styles.testimonies} .testimony`}>
+          <div className={`${styles.testimonies}`}>
             {Data.map((item) => (
               <div key={item.id} className={styles.slideContainer}>
                 <div className={styles.list}>

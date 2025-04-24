@@ -5,15 +5,15 @@ import styles from "./style.module.css";
 
 const ServiceItem = ({ data }) => {
   return (
-    <article className={styles.servicesContainer}>
+    <article className={styles.servicesGrid}>
       {data.map((item, key) => (
-        <div key={key} className={styles.servicesArticlesContainer}>
-          <img src={item?.image} alt="" />
+        <div key={key} className={styles.serviceCard}>
+          <img src={item?.image} alt="Service illustration" />
           <span>{item?.text}</span>
-          <div className={styles.explore}>
+          <div className={styles.serviceExplore}>
             <span>{item?.explore}</span>
             <div>
-              <IoArrowForwardOutline className={styles.arrow} />
+              <IoArrowForwardOutline size={20} color="white" />
             </div>
           </div>
         </div>
