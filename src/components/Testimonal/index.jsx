@@ -9,7 +9,7 @@ const Testimonal = () => {
     <>
       <section className={styles.testimonal}>
         <div className={styles.testimonalContainer}>
-          <div className={styles.TestimonalDescription}>
+          <div className={styles.testimonalDescription}>
             <span>An enterprise template to ramp up your company website</span>
           </div>
           <div className={styles.Buttons}>
